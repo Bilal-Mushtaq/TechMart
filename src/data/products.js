@@ -9,10 +9,6 @@ import tvBase03_01 from "../assets/imgs/bg1.jpg";
 import tvBase03_02 from "../assets/imgs/bg1.jpg";
 import tvBase03_03 from "../assets/imgs/bg1.jpg";
 import tvBase03_04 from "../assets/imgs/bg1.jpg";
-import tvBase04_01 from "../assets/imgs/bgcover.jpg";
-import tvBase04_02 from "../assets/imgs/bgcover.jpg";
-import tvBase04_03 from "../assets/imgs/bgcover.jpg";
-import tvBase04_04 from "../assets/imgs/bgcover.jpg";
 
 export const data = {
   products: [
