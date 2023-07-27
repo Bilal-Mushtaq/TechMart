@@ -9,7 +9,7 @@ import {
   Text,
 } from "@chakra-ui/react";
 import React, { Suspense } from "react";
-import bgcover from "../../assets/imgs/bgCover.jpg";
+import bgCoverImage from "../../assets/imgs/bgCover.jpg";
 import bg from "../../assets/imgs/bg2.jpg";
 import bg1 from "../../assets/imgs/bg1.jpg";
 import bg2 from "../../assets/imgs/bg2.jpg";
@@ -30,7 +30,7 @@ const Home = () => {
             <Box
               w="100%"
               h="600px"
-              backgroundImage={`url(${bgcover})`}
+              backgroundImage={`url(${bgCoverImage})`}
               backgroundSize="cover"
               bgPosition="50%, 75%"
               alt="bgImage"
