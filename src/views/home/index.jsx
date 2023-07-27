@@ -9,7 +9,7 @@ import {
   Text,
 } from "@chakra-ui/react";
 import React, { Suspense } from "react";
-import bgCoverImage from "../../assets/imgs/bgCover.jpg";
+import bgCoverImage from "../../assets/imgs/bgcover.jpg";
 import bg from "../../assets/imgs/bg2.jpg";
 import bg1 from "../../assets/imgs/bg1.jpg";
 import bg2 from "../../assets/imgs/bg2.jpg";
