@@ -55,12 +55,7 @@ const Search = () => {
                 >
                   {product.discountPercentage}%
                 </Badge>
-                <Link
-                  to={{
-                    pathname: "/SingleProduct",
-                    search: `?id=${product.id}`,
-                  }}
-                >
+                <Link to={{ pathname: `/SingleProduct?id=${product.id}` }}>
                   <Image
                     w="150px"
                     src={product.thumbnail}

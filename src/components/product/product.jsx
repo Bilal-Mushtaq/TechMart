@@ -19,10 +19,7 @@ const Product = ({ product }) => {
         >
           {product.discountPercentage}%
         </Badge>
-        {/* <Link to={{ pathname: `/SingleProduct?id=${product.id}` }}>
-          <Image w="100%" src={product.thumbnail} alt="product" p="4" />
-        </Link> */}
-        <Link to={{ pathname: "/SingleProduct", search: `?id=${product.id}` }}>
+        <Link to={{ pathname: `/SingleProduct?id=${product.id}` }}>
           <Image w="100%" src={product.thumbnail} alt="product" p="4" />
         </Link>
         <Box p="4" fontSize="14px">
