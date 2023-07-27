@@ -8,12 +8,13 @@ export default defineConfig(() => {
     },
     build: {
       outDir: "build",
+      chunkSizeWarningLimit: 20000,
     },
     plugins: [react()],
     test: {
       globals: true,
       environment: "jsdom",
-      setupFiles: "./src/setupTests.js",
+      setupFiles: ["./src/setupTests.js"], // Fixed: use an array here
     },
   };
 });
