@@ -7,7 +7,7 @@ export default defineConfig(() => {
       open: true,
     },
     build: {
-      outDir: "build",
+      outDir: "dist",
       chunkSizeWarningLimit: 20000,
     },
     plugins: [react()],
