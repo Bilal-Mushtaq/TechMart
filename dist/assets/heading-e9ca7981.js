@@ -1,1 +1,0 @@
-import{j as t,B as x,T as e}from"./index-68e82fe2.js";const s=({mainText:n,subText:i})=>t.jsxs(x,{"data-testid":"heading",textAlign:"center",p:"10px",mb:"20px",children:[t.jsx(e,{fontSize:"20px",fontWeight:"700",color:"brand.900",lineHeight:"40px",my:"10px",children:n}),t.jsx(e,{fontWeight:"600",children:i})]});export{s as H};
